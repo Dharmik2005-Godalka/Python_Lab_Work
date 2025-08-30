@@ -1,0 +1,5 @@
+first_names = ('Simon', 'Sarah', 'Mehdi', 'Fatime')
+last_names = ('Sinek', 'Smith', 'Lotfinejad', 'Lopes')
+ages = (49, 55, 39, 33)
+zipped = tuple(zip(first_names, last_names,ages))
+print(zipped)
